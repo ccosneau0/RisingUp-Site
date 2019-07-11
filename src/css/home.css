@@ -1,0 +1,94 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.header__home {
+  width: 100vw;
+  height: 86vh;
+  background-image: url('../../assets/img/waves_blueFilter.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 86vh;
+}
+
+.home__nav {
+  display: flex;
+}
+
+.header__logo {
+  width: 4.5vw;
+  height: 5.750vh;
+  margin-left: 7vw;
+  margin-top: 3vh;
+}
+
+.nav__href {
+  display: flex;
+  margin-left: 4vw;
+}
+
+.href {
+  color: white;
+  text-decoration: none;
+  margin-left: 7vw;
+  margin-top: 4vh;
+  font-size: 16px;
+}
+
+.nav__connexion {
+  width: 13vw;
+  height: 4vh;
+  margin-left: 18vw;
+  margin-top: 3vh;
+  background-color: white;
+  border: solid 2px;
+  border-image-source: linear-gradient(25deg, rgb(251, 18, 190), rgb(251, 18, 190), rgb(96, 157, 229), rgb(51, 249, 240), rgb(176, 220, 122), rgb(253, 216, 106), rgb(253, 216, 106));
+  border-image-slice: 1;
+}
+
+.language {
+  border: none;
+  background-color: rgba(255, 255, 255, 0); /* Problème avec Safari lorsque l'on initialise background-color: transparent; solution rgba ne marche pas */
+  color: white;
+  z-index: 5;
+  margin-left: 2vw;
+  margin-top: 1vh;
+}
+
+.home__brain {
+  margin-left: 28vw;
+  margin-top: -3vh;
+}
+
+.scroll__incitement {
+  position: absolute;
+  width: 1.2vw;
+  top: 75.5vh;
+  left: 48.9vw;
+  z-index: 4;
+}
+
+.header__content {
+  position: absolute;
+  width: 100vw; 
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.content__title {
+  font-size: 48px;
+  width: 40vw;
+  margin-top: 35vh;
+  margin-left: 30vw;
+}
+
+.content__text {
+  font-size: 20px;
+  margin-top: 5vh;
+  width: 60vw;
+  margin-left: 20vw;
+}
