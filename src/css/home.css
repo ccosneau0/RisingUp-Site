@@ -93,6 +93,26 @@ html {
   margin-left: 20vw;
 }
 
+.help {
+  font-size: 44px;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 5vw;
+  top: 40vh;
+  display: flex;
+  border-radius: 50%;
+  -moz-box-shadow: 0px 1px 5px #979797;
+  -webkit-box-shadow: 0px 1px 5px #979797;
+  box-shadow: 0px 1px 5px #979797;
+  z-index: 10;
+}
+
+.help__content {
+  margin: auto;
+}
+
 .home__wallet {
   width: 100vw;
   height: 71vh;
@@ -386,7 +406,7 @@ html {
 }
 
 .contact__boutton {
-  margin-top: 13vh;
+  margin-top: 11.5vh;
   font-size: 18px;
   width: 17vw;
   height: 5vh;
