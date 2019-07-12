@@ -69,7 +69,7 @@ html {
 
 .header__content {
   position: absolute;
-  width: 100vw; 
+  width: 100vw;
   height: 100vh;
   top: 0px;
   left: 0px;
@@ -104,7 +104,7 @@ html {
   width: 41.5vw;
   height: 71vh;
   border-radius: 0px 0px 6px 6px;
-  
+
   text-align: center;
   -moz-box-shadow: 0px 0px 25px #979797;
   -webkit-box-shadow: 0px 0px 25px #979797;
@@ -177,4 +177,221 @@ html {
   color: #5275B7;
   border-bottom: solid 3px #5275B7;
   padding-bottom: 2px;
+}
+
+.home__presentation {
+  margin-top: 10vh;
+  width: 100vw;
+  height: 164vh;
+  background-image: url('../../assets/img/background_section.png');
+  background-size: 100vw 164vh;
+  color: white;
+}
+
+.presentiel__title {
+  font-size: 40px;
+  margin-left: 7vw;
+  letter-spacing: 0.6em;
+  padding-top: 15vh;
+}
+
+.presentiel__content {
+  margin-left: 7vw;
+  margin-top: 4vh;
+  width: 56vw;
+  line-height: 2em;
+  font-size: 22px;
+}
+
+.presentiel__keywords {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 8vh;
+  margin-left: 4vw;
+  width: 50vw;
+}
+
+.keyword {
+  margin-left: 4vw;
+  font-size: 20px;
+}
+
+.keyword--bottom {
+  margin-top: 4vh;
+}
+
+.presentiel__button {
+  width: 13vw;
+  height: 5vh;
+  margin-left: 7vw;
+  margin-top: 7vh;
+  border: none;
+  font-size: 14px;
+  color: #26395B;
+}
+
+.presentiel__picture {
+  width: 34.5vw;
+  position: absolute;
+  right: 0px;
+  top: 207.5vh;
+}
+
+.digital__title {
+  font-size: 40px;
+  letter-spacing: 0.6em;
+  margin-top: 27vh;
+  margin-left: 71vw;
+}
+
+.digital__content {
+  font-size: 22px;
+  width: 55vw;
+  line-height: 2em;
+  margin-left: 38vw;
+  margin-top: 5vh;
+  text-align: right;
+}
+
+.digital__button {
+  width: 13vw;
+  height: 5vh;
+  border: none;
+  font-size: 14px;
+  margin-top: 22vh;
+  margin-left: 80vw;
+  color: #26395B;
+}
+
+.digital__picture {
+  width: 47vw;
+  position: absolute;
+  top: 317vh;
+  left: 7vw;
+}
+
+.start__button {
+  margin-top: 7vh;
+  width: 33vw;
+  height: 9vh;
+  font-size: 28px;
+  margin-left: 33.5vw;
+  margin-bottom: 7vh;
+  background-color: white;
+  border: solid 2px;
+  border-image-source: linear-gradient(160deg, rgb(253, 216, 106), rgb(253, 216, 106), rgb(176, 220, 122), rgb(51, 249, 240), rgb(96, 157, 229), rgb(251, 18, 190), rgb(251, 18, 190));
+  border-image-slice: 1;
+  color: #575757;
+}
+
+.home__customer {
+  width: 100vw;
+  height: 90vh;
+  -moz-box-shadow: inset 0px 3px 3px -3px #979797;
+  -webkit-box-shadow: inset 0px 3px 3px -3px #979797;
+  box-shadow: inset 0px 3px 3px -3px #979797;
+}
+
+.customer__title {
+  font-size: 35px;
+  width: 40vw;
+  text-align: center;
+  padding-top: 9vh;
+  margin-left: 30vw;
+  word-spacing: 0.2em;
+  line-height: 2em;
+}
+
+.customer__logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90vw;
+  height: 45vh;
+  margin-top: 12vh;
+}
+
+.logo__ratio {
+  display: flex;
+}
+
+.logo {
+  width: 9vw;
+  margin-left: 9vw;
+}
+
+.logo--sncf {
+  width: 8vw;
+}
+
+.logo--michelin {
+  width: 12vw;
+  padding-top: 2vh;
+}
+
+.logo--bayard {
+  width: 9vw;
+  margin-top: -1.5vh;
+}
+
+.logo--dec {
+  padding-top: 0.5vh;
+}
+
+.logo--emLyon {
+  width: 6vw;
+  margin-top: -0.5vh;
+}
+
+.logo--cfpc {
+  width: 6.5vw;
+}
+
+.logo--mairieParis {
+  width: 14vw;
+  padding-top: 5vh;
+}
+
+.logo--iesa {
+  width: 8vw;
+  padding-top: 3vh;
+  margin-left: 8vw;
+}
+
+.logo--learnSpace {
+  width: 6vw;
+  margin-left: 11vw;
+  padding-top: 0.5vh;
+}
+
+.logo--bambin {
+  width: 7vw;
+}
+
+.home__contact {
+  width: 100vw;
+  height: 45vh;
+  background-image: url('../../assets/img/background_contact.png');
+  background-size: 100vw 45vh;
+}
+
+.contact__title {
+  font-size: 38px;
+  color: white;
+  text-align: center;
+  padding-top: 11vh;
+  word-spacing: 0.1em;
+}
+
+.contact__boutton {
+  margin-top: 13vh;
+  font-size: 18px;
+  width: 17vw;
+  height: 5vh;
+  border: solid 2px;
+  border-image-source: linear-gradient(25deg, rgb(251, 18, 190), rgb(251, 18, 190), rgb(96, 157, 229), rgb(51, 249, 240), rgb(176, 220, 122), rgb(253, 216, 106), rgb(253, 216, 106));
+  border-image-slice: 1;
+  margin-left: 41.5vw;
 }
