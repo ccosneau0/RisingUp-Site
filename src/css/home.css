@@ -1,5 +1,6 @@
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: 'Circular', sans-sans-serif;
+  font-weight: normal;
 }
 
 .header__home {
@@ -24,6 +25,7 @@ html {
 .nav__href {
   display: flex;
   margin-left: 4vw;
+  font-weight: lighter;
 }
 
 .href {
@@ -41,7 +43,7 @@ html {
   margin-top: 3vh;
   background-color: white;
   border: solid 2px;
-  border-image-source: linear-gradient(25deg, rgb(251, 18, 190), rgb(251, 18, 190), rgb(96, 157, 229), rgb(51, 249, 240), rgb(176, 220, 122), rgb(253, 216, 106), rgb(253, 216, 106));
+  border-image-source: linear-gradient(160deg, rgb(253, 216, 106), rgb(253, 216, 106), rgb(176, 220, 122), rgb(51, 249, 240), rgb(96, 157, 229), rgb(251, 18, 190), rgb(251, 18, 190));
   border-image-slice: 1;
 }
 
@@ -80,14 +82,16 @@ html {
 }
 
 .content__title {
-  font-size: 48px;
+  font-size: 42px;
   width: 40vw;
   margin-top: 35vh;
   margin-left: 30vw;
+  font-weight: bolder;
 }
 
 .content__text {
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: lighter;
   margin-top: 5vh;
   width: 60vw;
   margin-left: 20vw;
@@ -96,11 +100,11 @@ html {
 .help {
   font-size: 44px;
   background-color: white;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   position: fixed;
   right: 5vw;
-  top: 40vh;
+  top: 85vh;
   display: flex;
   border-radius: 50%;
   -moz-box-shadow: 0px 1px 5px #979797;
@@ -121,10 +125,9 @@ html {
 }
 
 .wallet {
-  width: 41.5vw;
-  height: 71vh;
+  width: 40vw;
+  height: 69vh;
   border-radius: 0px 0px 6px 6px;
-
   text-align: center;
   -moz-box-shadow: 0px 0px 25px #979797;
   -webkit-box-shadow: 0px 0px 25px #979797;
@@ -140,25 +143,26 @@ html {
 }
 
 .wallet__image {
-  width: 41.5vw;
+  width: 40vw;
 }
 
 .wallet__title {
-  font-size: 36px;
+  font-size: 32px;
   position: absolute;
   top: 110vh;
-  width: 25vw;
+  width: 27vw;
   line-height: 1.3em;
-  margin-left: 8.25vw;
+  margin-left: 7vw;
   color: white;
 }
 
 .wallet__content {
   margin-top: 4vh;
   line-height: 2em;
-  width: 37vw;
+  width: 36vw;
+  height: 13vh;
   margin-left: 2.25vw;
-  font-size: 18px;
+  font-size: 16px;
   color: #8E8B8B;
 }
 
@@ -172,25 +176,26 @@ html {
   height: 5vh;
   font-size: 16px;
   border: solid 2px;
-  border-image-source: linear-gradient(25deg, rgb(251, 18, 190), rgb(251, 18, 190), rgb(96, 157, 229), rgb(51, 249, 240), rgb(176, 220, 122), rgb(253, 216, 106), rgb(253, 216, 106));
+  border-image-source: linear-gradient(160deg, rgb(253, 216, 106), rgb(253, 216, 106), rgb(176, 220, 122), rgb(51, 249, 240), rgb(96, 157, 229), rgb(251, 18, 190), rgb(251, 18, 190));
   border-image-slice: 1;
 }
 
 .button--one {
-  margin-top: 3vh;
+  margin-top: 7vh;
 }
 
 .button--two {
-  margin-top: 7.6vh;
+  margin-top: 7vh;
 }
 
 .hook__title {
   margin-top: 10vh;
   margin-left: 20vw;
-  font-size: 38px;
+  font-size: 28px;
   width: 60vw;
   line-height: 1.6em;
   text-align: center;
+  font-style: bolder;
 }
 
 .hook__important {
@@ -209,10 +214,11 @@ html {
 }
 
 .presentiel__title {
-  font-size: 40px;
+  font-size: 36px;
   margin-left: 7vw;
   letter-spacing: 0.6em;
   padding-top: 15vh;
+  font-weight: bolder;
 }
 
 .presentiel__content {
@@ -220,7 +226,8 @@ html {
   margin-top: 4vh;
   width: 56vw;
   line-height: 2em;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .presentiel__keywords {
@@ -229,12 +236,13 @@ html {
   flex-wrap: wrap;
   margin-top: 8vh;
   margin-left: 4vw;
-  width: 50vw;
+  width: 45vw;
 }
 
 .keyword {
   margin-left: 4vw;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 .keyword--bottom {
@@ -245,7 +253,7 @@ html {
   width: 13vw;
   height: 5vh;
   margin-left: 7vw;
-  margin-top: 7vh;
+  margin-top: 10vh;
   border: none;
   font-size: 14px;
   color: #26395B;
@@ -255,18 +263,20 @@ html {
   width: 34.5vw;
   position: absolute;
   right: 0px;
-  top: 207.5vh;
+  top: 198vh;
 }
 
 .digital__title {
-  font-size: 40px;
+  font-size: 36px;
+  font-weight: bolder;
   letter-spacing: 0.6em;
-  margin-top: 27vh;
+  margin-top: 29vh;
   margin-left: 71vw;
 }
 
 .digital__content {
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: lighter;
   width: 55vw;
   line-height: 2em;
   margin-left: 38vw;
@@ -287,16 +297,17 @@ html {
 .digital__picture {
   width: 47vw;
   position: absolute;
-  top: 317vh;
+  top: 300vh;
   left: 7vw;
 }
 
 .start__button {
   margin-top: 7vh;
-  width: 33vw;
-  height: 9vh;
+  width: 30vw;
+  height: 8vh;
   font-size: 28px;
-  margin-left: 33.5vw;
+  font-weight: bolder;
+  margin-left: 35vw;
   margin-bottom: 7vh;
   background-color: white;
   border: solid 2px;
@@ -315,6 +326,7 @@ html {
 
 .customer__title {
   font-size: 35px;
+  font-weight: bolder;
   width: 40vw;
   text-align: center;
   padding-top: 9vh;
@@ -398,20 +410,21 @@ html {
 }
 
 .contact__title {
-  font-size: 38px;
+  font-size: 34px;
+  font-weight: bolder;
   color: white;
   text-align: center;
-  padding-top: 11vh;
+  padding-top: 13vh;
   word-spacing: 0.1em;
 }
 
 .contact__boutton {
-  margin-top: 11.5vh;
+  margin-top: 10.5vh;
   font-size: 18px;
   width: 17vw;
   height: 5vh;
   border: solid 2px;
-  border-image-source: linear-gradient(25deg, rgb(251, 18, 190), rgb(251, 18, 190), rgb(96, 157, 229), rgb(51, 249, 240), rgb(176, 220, 122), rgb(253, 216, 106), rgb(253, 216, 106));
+  border-image-source: linear-gradient(160deg, rgb(253, 216, 106), rgb(253, 216, 106), rgb(176, 220, 122), rgb(51, 249, 240), rgb(96, 157, 229), rgb(251, 18, 190), rgb(251, 18, 190));
   border-image-slice: 1;
   margin-left: 41.5vw;
 }
