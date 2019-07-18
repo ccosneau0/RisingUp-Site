@@ -1,6 +1,7 @@
 @import './reset.css';
-@import './home.css';
 @import './fonts.css';
+@import './home.css';
+@import './presentiel.css';
 
 * {
   box-sizing: border-box;

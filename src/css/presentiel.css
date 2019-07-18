@@ -1,0 +1,16 @@
+.header__presentiel {
+  width: 100vw;
+  height: 90vh;
+  background-image: url('../../assets/img/header_presentiel.png');
+  background-size: 100vw 90vh;
+}
+
+.header__title {
+  font-size: 44px;
+  font-weight: bolder;
+  letter-spacing: .5rem;
+  margin-left: 7vw;
+  margin-top: 11.5vh;
+  color: white;
+
+}
