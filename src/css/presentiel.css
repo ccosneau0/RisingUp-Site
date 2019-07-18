@@ -106,6 +106,34 @@
 
 .numbers {
   width: 100vw;
-  height: 10vh;
+  height: 24.36vh;
   margin-top: 10vh;
+  background-image: url('../../assets/img/background_numbers.png');
+  background-size: 100vw 24.36vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.number {
+  height: 24.36vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.number__title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.number__text {
+  font-size: 20px;
+  margin-top: 1vh;
 }
