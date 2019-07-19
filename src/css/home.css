@@ -98,10 +98,10 @@ html {
 }
 
 .help {
-  font-size: 44px;
+  font-size: 30px;
   background-color: white;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   position: fixed;
   right: 5vw;
   top: 85vh;
@@ -214,7 +214,7 @@ html {
 }
 
 .presentiel__title {
-  font-size: 36px;
+  font-size: 34px;
   margin-left: 7vw;
   letter-spacing: 0.6em;
   padding-top: 15vh;
@@ -226,7 +226,7 @@ html {
   margin-top: 4vh;
   width: 56vw;
   line-height: 2em;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
 }
 
@@ -236,12 +236,12 @@ html {
   flex-wrap: wrap;
   margin-top: 8vh;
   margin-left: 4vw;
-  width: 45vw;
+  width: 40vw;
 }
 
 .keyword {
   margin-left: 4vw;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -263,11 +263,11 @@ html {
   width: 34.5vw;
   position: absolute;
   right: 0px;
-  top: 198vh;
+  top: 199vh;
 }
 
 .digital__title {
-  font-size: 36px;
+  font-size: 34px;
   font-weight: bolder;
   letter-spacing: 0.6em;
   margin-top: 29vh;
@@ -275,7 +275,7 @@ html {
 }
 
 .digital__content {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
   width: 55vw;
   line-height: 2em;

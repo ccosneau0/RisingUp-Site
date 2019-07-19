@@ -50,6 +50,7 @@
   font-size: 100px;
   float: left;
   text-shadow: 4px 4px 3px #cdcdcd;
+  font-weight: bold;
 }
 
 .method__name {
@@ -177,6 +178,7 @@
   margin-top: 7vh;
   word-spacing: 0.2rem;
   letter-spacing: 0.1rem;
+  font-weight: lighter;
 }
 
 /* .innovation__item::before {
@@ -239,6 +241,8 @@
   margin-top: 7vh;
   word-spacing: 0.2rem;
   letter-spacing: 0.1rem;
+  font-weight: normal;
+  color: #101D35;
 }
 
 .management__number {
@@ -486,11 +490,11 @@
 }
 
 .puce--left {
-  width: 1vw;
-  margin-right: 1vw;
+  width: 0.7vw;
+  margin-right: 2.6vw;
 }
 
 .puce--right {
-  width: 1vw;
-  margin-left: 1vw;
+  width: 0.7vw;
+  margin-left: 2.6vw;
 }
