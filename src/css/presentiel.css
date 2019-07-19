@@ -137,3 +137,294 @@
   font-size: 20px;
   margin-top: 1vh;
 }
+
+.innovation__picture {
+  height: 65vh;
+  margin-top: 15vh;
+}
+
+.innovation {
+  margin-top: 18vh;
+  float: right;
+  text-align: left;
+  width: 67vw;
+}
+
+.innovation__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.innovation__summary {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0047FC;
+  margin-top: 4vh;
+}
+
+.innovation__list {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.innovation__item {
+  margin-top: 7vh;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.innovation__number {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 8vh;
+
+}
+
+.innovation__total {
+  color: #b9b9bb;
+}
+
+.innovation__button {
+  height: 5vh;
+  width: 12vw;
+  font-size: 18px;
+  font-weight: lighter;
+  border: solid 2px #0047FC;
+  color: #575757;
+  float: right;
+  margin-right: 7vw;
+}
+
+.management__picture {
+  height: 65vh;
+  margin-top: 15vh;
+  float: right;
+}
+
+.management {
+  margin-top: 24vh;
+  text-align: right;
+  width: 64vw;
+  height: 60vh;
+}
+
+.management__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.management__summary {
+  font-size: 16px;
+  font-weight: bold;
+  color: #519898;
+  margin-top: 4vh;
+}
+
+.management__list {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.management__item {
+  margin-top: 7vh;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.management__number {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 8vh;
+}
+
+.management__total {
+  color: #b9b9bb;
+}
+
+.management__button {
+  height: 5vh;
+  width: 12vw;
+  font-size: 18px;
+  font-weight: lighter;
+  border: solid 2px #519898;
+  color: #575757;
+  float: left;
+  margin-left: 7vw;
+}
+
+.skills__picture {
+  height: 65vh;
+  margin-top: 16vh;
+}
+
+.skills {
+  margin-top: 18vh;
+  float: right;
+  text-align: left;
+  width: 63vw;
+}
+
+.skills__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.skills__summary {
+  color: #861818;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 4vh;
+}
+
+.skills__list {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.skills__item {
+  margin-top: 7vh;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.skills__number {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 8vh;
+}
+
+.skills__total {
+  color: #b9b9bb;
+}
+
+.skills__button {
+  height: 5vh;
+  width: 12vw;
+  font-size: 18px;
+  font-weight: lighter;
+  border: solid 2px #861818;
+  color: #575757;
+  float: right;
+  margin-right: 7vw;
+}
+
+.pedagogie__picture {
+  height: 65vh;
+  margin-top: 15vh;
+  float: right;
+}
+
+.pedagogie {
+  margin-top: 24vh;
+  text-align: right;
+  width: 64vw;
+  height: 60vh;
+}
+
+.pedagogie__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.pedagogie__summary {
+  font-size: 16px;
+  font-weight: bold;
+  color: #DEC666;
+  margin-top: 4vh;
+}
+
+.pedagogie__list {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.pedagogie__item {
+  margin-top: 7vh;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.pedagogie__number {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 8vh;
+}
+
+.pedagogie__total {
+  color: #b9b9bb;
+}
+
+.pedagogie__button {
+  height: 5vh;
+  width: 12vw;
+  font-size: 18px;
+  font-weight: lighter;
+  border: solid 2px #DEC666;
+  color: #575757;
+  float: left;
+  margin-left: 7vw;
+}
+
+.enfance__picture {
+  height: 65vh;
+  margin-top: 16vh;
+}
+
+.enfance {
+  margin-top: 20vh;
+  float: right;
+  text-align: left;
+  width: 63vw;
+}
+
+.enfance__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.enfance__summary {
+  color: #D630FF;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 4vh;
+}
+
+.enfance__list {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.enfance__item {
+  margin-top: 7vh;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.enfance__number {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 8vh;
+}
+
+.enfance__total {
+  color: #b9b9bb;
+}
+
+.enfance__button {
+  height: 5vh;
+  width: 12vw;
+  font-size: 18px;
+  font-weight: lighter;
+  border: solid 2px #D630FF;
+  color: #575757;
+  float: right;
+  margin-right: 7vw;
+}
+
+.begin {
+  width: 100vw;
+  height: 32vh;
+  background-image: url('../../assets/img/background_blue_arc.png');
+  background-size: 100vw 32vh;
+  background-repeat: no-repeat;
+}
