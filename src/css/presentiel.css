@@ -33,12 +33,12 @@
 }
 
 .method {
-  margin-top: 13vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 75vw;
   margin-left: 17vw;
+  height: 50vh;
 
 }
 
@@ -72,9 +72,15 @@
   margin-left: 5.5vw;
 }
 
+.anti--float {
+  height: 100vh;
+}
+
 .presentiel__coaching {
-  margin-top: 31vh;
+  margin-top: 40vh;
   margin-left: 7vw;
+  height: 57vh;
+  float: left;
 }
 
 .coaching__title {
@@ -92,16 +98,16 @@
 
 .coaching__picture {
   height: 75vh;
-  position: absolute;
-  right: 0px;
-  top: 105vh;
+  margin-top: 20vh;
+  float: right;
 }
 
 .header__number {
   font-size: 38px;
   font-weight: bold;
-  margin-top: 26vh;
+  margin-top: 11vh;
   text-align: center;
+  width: 100vw;
 }
 
 .numbers {
@@ -477,4 +483,14 @@
   float: right;
   margin-top: 10vh;
   margin-bottom: 15vh;
+}
+
+.puce--left {
+  width: 1vw;
+  margin-right: 1vw;
+}
+
+.puce--right {
+  width: 1vw;
+  margin-left: 1vw;
 }
