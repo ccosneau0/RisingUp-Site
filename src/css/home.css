@@ -324,6 +324,11 @@ html {
   box-shadow: inset 0px 3px 3px -3px #979797;
 }
 
+.home__customer--nsh {
+  width: 100vw;
+  height: 90vh;
+}
+
 .customer__title {
   font-size: 35px;
   font-weight: bolder;

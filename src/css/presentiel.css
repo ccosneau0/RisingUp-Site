@@ -173,6 +173,10 @@
   letter-spacing: 0.1rem;
 }
 
+/* .innovation__item::before {
+
+} */
+
 .innovation__number {
   font-size: 18px;
   font-weight: lighter;
@@ -427,4 +431,50 @@
   background-image: url('../../assets/img/background_blue_arc.png');
   background-size: 100vw 32vh;
   background-repeat: no-repeat;
+  margin-top: 11vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.begin__button {
+  background-color: white;
+  width: 27vw;
+  height: 8vh;
+  border: solid 2px;
+  font-size: 28px;
+  font-weight: bolder;
+  border-image-source: linear-gradient(160deg, rgb(253, 216, 106), rgb(253, 216, 106), rgb(176, 220, 122), rgb(51, 249, 240), rgb(96, 157, 229), rgb(251, 18, 190), rgb(251, 18, 190));
+  border-image-slice: 1;
+}
+
+.advice {
+  margin-top: 25vh;
+  margin-left: 7vw;
+  float: left;
+}
+
+.advice__title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.advice__title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.advice__text {
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 2rem;
+  margin-top: 5vh;
+  width: 50vw;
+}
+
+.advice__picture {
+  height: 75vh;
+  float: right;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
 }
