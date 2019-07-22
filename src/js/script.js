@@ -10,7 +10,7 @@ const innovationCatchphrase = document.getElementById('innovation__catchphrase')
 const innovationNumber = document.getElementById('innovation__number');
 
 
-
+// Animation au hover de la section presentiel
 innovationHover.addEventListener('mouseover', function() {
   innovation.classList.replace('innovation', 'innovation--hover');
   innovationPicture.classList.replace('innovation__picture', 'innovation__picture--hover');
