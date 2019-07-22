@@ -8,9 +8,9 @@
 .header__title {
   font-size: 44px;
   font-weight: bolder;
-  letter-spacing: .5rem;
+  letter-spacing: .4rem;
   margin-left: 7vw;
-  margin-top: 11.5vh;
+  margin-top: 10vh;
   color: white;
 }
 
@@ -29,7 +29,7 @@
   font-weight: bold;
   margin-top: 7vh;
   margin-left: 77vw;
-  text-shadow: 4px 4px 3px #cdcdcd;
+  text-shadow: 4px 3px 4px #D1D1D1;
 }
 
 .method {
@@ -39,17 +39,17 @@
   width: 75vw;
   margin-left: 17vw;
   height: 50vh;
-
+  margin-top: 1vh;
 }
 
 .method__group {
-  width: 23vw;
+  width: 22vw;
 }
 
 .method__number {
   font-size: 100px;
   float: left;
-  text-shadow: 4px 4px 3px #cdcdcd;
+  text-shadow: 4px 3px 4px #D1D1D1;
   font-weight: bold;
 }
 
@@ -58,7 +58,7 @@
   font-weight: bold;
   margin-left: 4vw;
   margin-top: 2vh;
-  text-shadow: 4px 4px 3px #cdcdcd;
+  text-shadow: 4px 3px 4px #D1D1D1;
 }
 
 .method__text {
@@ -67,6 +67,7 @@
   line-height: 2rem;
   margin-left: 4vw;
   margin-top: 2vh;
+  width: 17vw;
 }
 
 .method--margin {
@@ -146,32 +147,86 @@
 }
 
 .innovation__picture {
+  height: 55vh;
+  margin-top: 12vh;
+  transition: 1.5s ease;
+}
+
+.innovation__picture--hover {
   height: 65vh;
-  margin-top: 15vh;
+  margin-top: 12vh;
+  transition: 1.5s ease;
 }
 
 .innovation {
-  margin-top: 18vh;
+  margin-top: 21vh;
+  float: right;
+  text-align: left;
+  width: 68vw;
+  transition: 1.5s ease;
+}
+
+.innovation--hover {
+  margin-top: 17vh;
   float: right;
   text-align: left;
   width: 67vw;
+  transition: 1.5s ease;
 }
 
 .innovation__title {
+  font-size: 55px;
+  font-weight: bold;
+  transition: 1.5s ease;
+}
+
+.innovation__title--hover {
   font-size: 48px;
   font-weight: bold;
+  transition: 1.5s ease;
 }
 
 .innovation__summary {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0047FC;
+  margin-top: 4vh;
+  transition: 1.5s ease;
+}
+
+.innovation__summary--hover {
   font-size: 16px;
   font-weight: bold;
   color: #0047FC;
   margin-top: 4vh;
+  transition: 1.5s ease;
+}
+
+.innovation__catchphrase {
+  font-size: 1.528vw;
+  font-weight: lighter;
+  letter-spacing: .2rem;
+  transition: 1.5s ease;
+  margin-top: 8vh;
+}
+
+.innovation__catchphrase--hover {
+  display: none;
+  transition: 1.5s ease;
 }
 
 .innovation__list {
-  font-size: 22px;
+  font-size: 1.528vw;
   font-weight: lighter;
+  display: none;
+  transition: 1.5s ease;
+}
+
+.innovation__list--hover {
+  font-size: 1.528vw;
+  font-weight: lighter;
+  display: block;
+  transition: 1.5s ease;
 }
 
 .innovation__item {
@@ -181,15 +236,16 @@
   font-weight: lighter;
 }
 
-/* .innovation__item::before {
-
-} */
-
 .innovation__number {
-  font-size: 18px;
+  display: none;
+  transition: 1.5s ease;
+}
+
+.innovation__number--hover {
+  font-size: 19px;
   font-weight: lighter;
   margin-top: 8vh;
-
+  transition: 1.5s ease;
 }
 
 .innovation__total {
@@ -197,24 +253,38 @@
 }
 
 .innovation__button {
-  height: 5vh;
+  height: 6vh;
   width: 12vw;
   font-size: 18px;
   font-weight: lighter;
   border: solid 2px #0047FC;
   color: #575757;
   float: right;
-  margin-right: 7vw;
+  margin-right: 56vw;
+  margin-top: 8vh;
+  transition: 1.5s ease;
+}
+
+.innovation__button--hover {
+  height: 6vh;
+  width: 12vw;
+  font-size: 18px;
+  font-weight: lighter;
+  border: solid 2px #0047FC;
+  float: right;
+  color: #575757;
+  margin-top: -6vh;
+  transition: 1.5s ease;
 }
 
 .management__picture {
   height: 65vh;
-  margin-top: 15vh;
+  margin-top: 10vh;
   float: right;
 }
 
 .management {
-  margin-top: 24vh;
+  margin-top: 19vh;
   text-align: right;
   width: 64vw;
   height: 60vh;
@@ -233,7 +303,7 @@
 }
 
 .management__list {
-  font-size: 22px;
+  font-size: 1.528vw;
   font-weight: lighter;
 }
 
@@ -246,7 +316,7 @@
 }
 
 .management__number {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: lighter;
   margin-top: 8vh;
 }
@@ -256,7 +326,7 @@
 }
 
 .management__button {
-  height: 5vh;
+  height: 6vh;
   width: 12vw;
   font-size: 18px;
   font-weight: lighter;
@@ -264,15 +334,16 @@
   color: #575757;
   float: left;
   margin-left: 7vw;
+  margin-top: -6vh;
 }
 
 .skills__picture {
   height: 65vh;
-  margin-top: 16vh;
+  margin-top: 13vh;
 }
 
 .skills {
-  margin-top: 18vh;
+  margin-top: 15vh;
   float: right;
   text-align: left;
   width: 63vw;
@@ -291,7 +362,7 @@
 }
 
 .skills__list {
-  font-size: 22px;
+  font-size: 1.528vw;
   font-weight: lighter;
 }
 
@@ -302,7 +373,7 @@
 }
 
 .skills__number {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: lighter;
   margin-top: 8vh;
 }
@@ -312,7 +383,7 @@
 }
 
 .skills__button {
-  height: 5vh;
+  height: 6vh;
   width: 12vw;
   font-size: 18px;
   font-weight: lighter;
@@ -320,16 +391,17 @@
   color: #575757;
   float: right;
   margin-right: 7vw;
+  margin-top: -6vh;
 }
 
 .pedagogie__picture {
   height: 65vh;
-  margin-top: 15vh;
+  margin-top: 10vh;
   float: right;
 }
 
 .pedagogie {
-  margin-top: 24vh;
+  margin-top: 19vh;
   text-align: right;
   width: 64vw;
   height: 60vh;
@@ -348,7 +420,7 @@
 }
 
 .pedagogie__list {
-  font-size: 22px;
+  font-size: 1.528vw;
   font-weight: lighter;
 }
 
@@ -359,7 +431,7 @@
 }
 
 .pedagogie__number {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: lighter;
   margin-top: 8vh;
 }
@@ -369,7 +441,7 @@
 }
 
 .pedagogie__button {
-  height: 5vh;
+  height: 6vh;
   width: 12vw;
   font-size: 18px;
   font-weight: lighter;
@@ -377,15 +449,16 @@
   color: #575757;
   float: left;
   margin-left: 7vw;
+  margin-top: -6vh;
 }
 
 .enfance__picture {
   height: 65vh;
-  margin-top: 16vh;
+  margin-top: 12vh;
 }
 
 .enfance {
-  margin-top: 20vh;
+  margin-top: 16vh;
   float: right;
   text-align: left;
   width: 63vw;
@@ -404,7 +477,7 @@
 }
 
 .enfance__list {
-  font-size: 22px;
+  font-size: 1.528vw;
   font-weight: lighter;
 }
 
@@ -415,7 +488,7 @@
 }
 
 .enfance__number {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: lighter;
   margin-top: 8vh;
 }
@@ -425,7 +498,7 @@
 }
 
 .enfance__button {
-  height: 5vh;
+  height: 6vh;
   width: 12vw;
   font-size: 18px;
   font-weight: lighter;
@@ -433,6 +506,7 @@
   color: #575757;
   float: right;
   margin-right: 7vw;
+  margin-top: -6vh;
 }
 
 .begin {
