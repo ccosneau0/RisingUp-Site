@@ -1,3 +1,25 @@
+@keyframes textAppears {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* button { */
+  /* -moz-user-select: none; /* Firefox */
+ /* -webkit-user-select: none; /* Chrome, Safari, Opéra */
+ /* -ms-user-select: none; /* IE, Edge */
+ /* user-select: none;
+} */
+
+
 .header__presentiel {
   width: 100vw;
   height: 90vh;
@@ -149,13 +171,13 @@
 .innovation__picture {
   height: 55vh;
   margin-top: 12vh;
-  transition: 1.5s ease;
+  transition: 2s ease;
 }
 
 .innovation__picture--hover {
   height: 65vh;
   margin-top: 12vh;
-  transition: 1.5s ease;
+  transition: 2s ease;
 }
 
 .innovation {
@@ -208,6 +230,8 @@
   letter-spacing: .2rem;
   transition: 1.5s ease;
   margin-top: 8vh;
+  animation-duration: 2s;
+  animation-name: textAppears;
 }
 
 .innovation__catchphrase--hover {
@@ -219,6 +243,7 @@
   font-size: 1.528vw;
   font-weight: lighter;
   display: none;
+  opacity: 0;
   transition: 1.5s ease;
 }
 
@@ -226,7 +251,10 @@
   font-size: 1.528vw;
   font-weight: lighter;
   display: block;
+  opacity: 1;
   transition: 1.5s ease;
+  animation-duration: 2s;
+  animation-name: textAppears;
 }
 
 .innovation__item {
@@ -262,7 +290,9 @@
   float: right;
   margin-right: 56vw;
   margin-top: 8vh;
-  transition: 1.5s ease;
+  transition: 3s ease;
+  animation-duration: 3s;
+  animation-name: textAppears;
 }
 
 .innovation__button--hover {
@@ -273,8 +303,11 @@
   border: solid 2px #0047FC;
   float: right;
   color: #575757;
+  margin-right: 7vw;
   margin-top: -6vh;
-  transition: 1.5s ease;
+  transition: 3s ease;
+  animation-duration: 3s;
+  animation-name: textAppears;
 }
 
 .management__picture {
