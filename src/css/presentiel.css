@@ -89,7 +89,7 @@
   line-height: 2rem;
   margin-left: 4vw;
   margin-top: 2vh;
-  width: 17vw;
+  width: 18vw;
 }
 
 .method--margin {
@@ -149,7 +149,7 @@
 
 .number {
   height: 24.36vh;
-  width: 25vw;
+  width: 27vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,6 +168,10 @@
   margin-top: 1vh;
 }
 
+.innovation__hover {
+  will-change: transform;
+}
+
 .innovation__picture {
   height: 55vh;
   margin-top: 12vh;
@@ -177,7 +181,7 @@
 .innovation__picture--hover {
   height: 65vh;
   margin-top: 12vh;
-  transition: 2s ease;
+  transition: 2s ease-in-out;
 }
 
 .innovation {
@@ -312,12 +316,13 @@
 
 .management__picture {
   height: 65vh;
-  margin-top: 10vh;
+  /* margin-top: 3vh; */
   float: right;
 }
 
 .management {
-  margin-top: 19vh;
+  margin-top: 7vh;
+  padding-top: 4vh;
   text-align: right;
   width: 64vw;
   height: 60vh;
@@ -372,7 +377,7 @@
 
 .skills__picture {
   height: 65vh;
-  margin-top: 13vh;
+  margin-top: 20vh;
 }
 
 .skills {
