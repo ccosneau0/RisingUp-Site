@@ -170,18 +170,19 @@
 
 .innovation__hover {
   will-change: transform;
+  height: 80vh;
 }
 
 .innovation__picture {
   height: 55vh;
   margin-top: 12vh;
-  transition: 2s ease;
+  transition: .8s ease-in-out;
 }
 
 .innovation__picture--hover {
   height: 65vh;
   margin-top: 12vh;
-  transition: 2s ease-in-out;
+  transition: .8s ease-in-out;
 }
 
 .innovation {
@@ -189,7 +190,7 @@
   float: right;
   text-align: left;
   width: 68vw;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation--hover {
@@ -197,19 +198,19 @@
   float: right;
   text-align: left;
   width: 67vw;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__title {
   font-size: 55px;
   font-weight: bold;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__title--hover {
   font-size: 48px;
   font-weight: bold;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__summary {
@@ -217,7 +218,7 @@
   font-weight: bold;
   color: #0047FC;
   margin-top: 4vh;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__summary--hover {
@@ -225,22 +226,22 @@
   font-weight: bold;
   color: #0047FC;
   margin-top: 4vh;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__catchphrase {
   font-size: 1.528vw;
   font-weight: lighter;
   letter-spacing: .2rem;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
   margin-top: 8vh;
-  animation-duration: 2s;
+  animation-duration: .8s;
   animation-name: textAppears;
 }
 
 .innovation__catchphrase--hover {
   display: none;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__list {
@@ -248,7 +249,7 @@
   font-weight: lighter;
   display: none;
   opacity: 0;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__list--hover {
@@ -256,8 +257,8 @@
   font-weight: lighter;
   display: block;
   opacity: 1;
-  transition: 1.5s ease;
-  animation-duration: 2s;
+  transition: .7s ease-in-out;
+  animation-duration: .8s;
   animation-name: textAppears;
 }
 
@@ -270,14 +271,14 @@
 
 .innovation__number {
   display: none;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__number--hover {
   font-size: 19px;
   font-weight: lighter;
   margin-top: 8vh;
-  transition: 1.5s ease;
+  transition: .7s ease-in-out;
 }
 
 .innovation__total {
@@ -294,8 +295,8 @@
   float: right;
   margin-right: 56vw;
   margin-top: 8vh;
-  transition: 3s ease;
-  animation-duration: 3s;
+  transition: .9s ease-in-out;
+  animation-duration: .9s;
   animation-name: textAppears;
 }
 
@@ -309,9 +310,14 @@
   color: #575757;
   margin-right: 7vw;
   margin-top: -6vh;
-  transition: 3s ease;
-  animation-duration: 3s;
+  transition: .9s ease-in-out;
+  animation-duration: .9s;
   animation-name: textAppears;
+}
+
+.management__hover {
+  will-change: transform;
+  height: 80vh;
 }
 
 .management__picture {
@@ -375,13 +381,17 @@
   margin-top: -6vh;
 }
 
+.skills__hover {
+  will-change: transform;
+  height: 80vh;
+}
+
 .skills__picture {
   height: 65vh;
-  margin-top: 20vh;
 }
 
 .skills {
-  margin-top: 15vh;
+  margin-top: 5vh;
   float: right;
   text-align: left;
   width: 63vw;
@@ -432,17 +442,22 @@
   margin-top: -6vh;
 }
 
+.pedagogie__hover {
+  will-change: transform;
+  height: 80vh;
+}
+
 .pedagogie__picture {
   height: 65vh;
-  margin-top: 10vh;
   float: right;
 }
 
 .pedagogie {
-  margin-top: 19vh;
+  margin-top: 5vh;
   text-align: right;
   width: 64vw;
   height: 60vh;
+  float: left;
 }
 
 .pedagogie__title {
@@ -490,13 +505,17 @@
   margin-top: -6vh;
 }
 
+.enfance__hover {
+  will-change: transform;
+  height: 80vh;
+}
+
 .enfance__picture {
   height: 65vh;
-  margin-top: 12vh;
+  float: left;
 }
 
 .enfance {
-  margin-top: 16vh;
   float: right;
   text-align: left;
   width: 63vw;
