@@ -2,6 +2,7 @@
 @import './fonts.css';
 @import './home.css';
 @import './presentiel.css';
+@import './digital.css';
 
 * {
   box-sizing: border-box;

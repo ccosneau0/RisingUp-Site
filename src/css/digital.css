@@ -1,0 +1,130 @@
+.header__digital {
+  width: 100vw;
+  height: 90vh;
+  background-image: url('../../assets/img/header_digital.png');
+  background-size: 100vw 90vh;
+}
+
+.digital__know {
+  font-size: 33px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 30vh;
+  color: #152A45;
+}
+
+.know__picture {
+  width: 15vw;
+  margin-left: 42.5vw;
+  margin-top: 6vh;
+}
+
+.know__text {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 2.5rem;
+  color: #8E8B8B;
+  text-align: center;
+  margin-top: 4vh;
+  width: 75vw;
+  margin-left: 12.5vw;
+}
+
+.screen__dashboard {
+  width: 75vw;
+  height: 80vh;
+  background-image: url('../../assets/img/ecran_dashboard.png');
+  background-size: 75vw 80vh;
+  background-repeat: no-repeat;
+  margin-top: 25vh;
+  margin-left: 12.5vw;
+  -moz-box-shadow: 0px 1px 25px #eaeaea;
+  -webkit-box-shadow: 0px 1px 25px #eaeaea;
+  box-shadow: 0px 1px 25px #eaeaea;
+}
+
+.slider__puces {
+  margin-top: 4vh;
+  width: 15vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  margin-left: 11.5vw;
+}
+
+.puce {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #D6D6D6;
+  margin-left: 1vw;
+}
+
+.puce--active {
+  width: 30px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: #101D35;
+  margin-left: 1vw;
+}
+
+.apprenticeship {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.apprenticeship__wallets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wallet {
+  width: 10.417vw;
+  height: 18.270401948842874vh;
+  border-radius: 5px;
+  margin-left: 2vw;
+  -moz-box-shadow: 0px 1px 20px #eaeaea;
+  -webkit-box-shadow: 0px 1px 20px #eaeaea;
+  box-shadow: 0px 1px 20px #eaeaea;
+  display: flex;
+  color: #152A45;
+}
+
+.wallet--active {
+  width: 11.5vw;
+  height: 19.5vh;
+  background-color: #152A45;
+  color: white;
+}
+
+.wallet__text {
+  margin: auto;
+  text-align: center;
+  width: 8vw;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 1.5rem;
+}
+
+.text--litle {
+  width: 5vw;
+}
+
+.apprenticeship__text {
+  width: 30vw;
+  height: 16vh;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: bolder;
+  background-image: url('../../assets/img/number_four.png');
+  background-size: 8vw 16vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+
+}
