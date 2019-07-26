@@ -41,13 +41,13 @@
 }
 
 .screen__dashboard {
-  width: 75vw;
+  width: 73vw;
   height: 73vh;
   background-image: url('../../assets/img/ecran_dashboard.png');
-  background-size: 75vw 73vh;
+  background-size: 73vw 73vh;
   background-repeat: no-repeat;
   margin-top: 17vh;
-  margin-left: 12.5vw;
+  margin-left: 13.5vw;
   -moz-box-shadow: 0px 1px 25px #eaeaea;
   -webkit-box-shadow: 0px 1px 25px #eaeaea;
   box-shadow: 0px 1px 25px #eaeaea;
@@ -59,7 +59,7 @@
   height: 10vh;
   display: flex;
   align-items: center;
-  margin-left: 11.5vw;
+  margin-left: 12.5vw;
 }
 
 .slider__puces--litle {
@@ -93,11 +93,17 @@
   height: 25vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 7vh;
 }
 
 .apprenticeship__wallets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.apprenticeship__wallets--right {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -148,11 +154,11 @@
   text-align: center;
   color: #152A45;
   padding-top: 4vh;
-  margin-left: -5vw;
+  margin-left: 4vw;
 }
 
 .apprenticeship__text--left {
-  width: 30vw;
+  width: 34vw;
   height: 16vh;
   line-height: 2rem;
   font-size: 18px;
@@ -164,13 +170,12 @@
   text-align: center;
   color: #152A45;
   padding-top: 4vh;
-  margin-left: 4vw;
 }
 
 .mobile {
-  width: 95vw;
+  width: 93vw;
   height: 65vh;
-  margin-left: 5vw;
+  margin-left: 7vw;
   margin-top: 20vh;
   margin-bottom: 11vh;
   display: flex;
@@ -235,25 +240,31 @@
 }
 
 .card__one {
-  width: 22vw;
+  width: 23vw;
   height: 27vh;
   display: flex;
   background-image: url('../../assets/img/card_one.png');
-  background-size: 22vw 27vh;
+  background-size: 23vw 27vh;
   background-repeat: no-repeat;
   border-radius: 7px;
   margin-left: 7vw;
+  -moz-box-shadow: 0px 1px 20px #bababa;
+  -webkit-box-shadow: 0px 1px 20px #bababa;
+  box-shadow: 0px 1px 20px #bababa;
 }
 
 .card__two {
-  width: 22vw;
+  width: 23vw;
   height: 27vh;
   display: flex;
   background-image: url('../../assets/img/card_two.png');
-  background-size: 22vw 27vh;
+  background-size: 23vw 27vh;
   background-repeat: no-repeat;
   border-radius: 7px;
-  margin-left: 3vw;
+  margin-left: 2.5vw;
+  -moz-box-shadow: 0px 1px 20px #bababa;
+  -webkit-box-shadow: 0px 1px 20px #bababa;
+  box-shadow: 0px 1px 20px #bababa;
 }
 
 .one__text {
@@ -270,6 +281,8 @@
   display: flex;
   flex-direction: column;
   width: 35vw;
+  text-align: right;
+  margin-right: 7vw;
 }
 
 .describe__title {
@@ -282,7 +295,8 @@
   font-size: 16px;
   font-weight: lighter;
   color: #8E8B8B;
-  margin-top: 5vh;
+  margin-top: 3vh;
+  line-height: 2rem;
 }
 
 .describe__button {
@@ -292,6 +306,8 @@
   background-color: #26385B;
   width: 15vw;
   height: 5vh;
-  margin-top: 4vh;
+  margin-top: 2vh;
+  margin-left: 20vw;
+  border: none;
   border-radius: 2px;
 }
