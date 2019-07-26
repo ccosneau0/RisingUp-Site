@@ -24,7 +24,6 @@ innovationHover.addEventListener('mouseover', function() {
     innovationButton.classList.replace('innovation__button', 'innovation__button--hover');
     console.log('mouseover');
   }
-
 });
 
 innovationHover.addEventListener('mouseleave', function() {
@@ -40,5 +39,4 @@ innovationHover.addEventListener('mouseleave', function() {
     innovationButton.classList.replace('innovation__button--hover', 'innovation__button');
     console.log('mouseleave');
   }
-
 });

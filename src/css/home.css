@@ -91,6 +91,7 @@ button:hover {
   margin-top: 30vh;
   margin-left: 30vw;
   font-weight: bold;
+  letter-spacing: 4px;
 }
 
 .content__text {
@@ -209,16 +210,17 @@ button:hover {
 .flexibility__title {
   font-size: 45px;
   font-weight: bolder;
-  line-height: 5rem;
+  line-height: 6rem;
   width: 70vw;
   text-align: center;
   margin: auto;
+  color: #152A45;
 }
 
 .presentiel {
   width:  100vw;
   height: 80vh;
-margin-top: 14vh;
+  margin-top: 14vh;
 }
 
 .presentiel__hook {
@@ -279,8 +281,8 @@ margin-top: 14vh;
 .presentiel__button {
   margin-left: 5.2vh;
   margin-top: 6vh;
-  width: 13vw;
-  height: 5vh;
+  width: 11vw;
+  height: 4vh;
   background-color: #26385B;
   font-size: 12px;
   font-weight: bolder;
@@ -323,8 +325,8 @@ margin-top: 14vh;
 
 .digital__content {
   height: 50vh;
-  width: 45vw;
-  margin-left: 48.5vw;
+  width: 48vw;
+  margin-left: 45.5vw;
   margin-top: 8vh;
   border-radius: 6px;
   background-color: white;
@@ -362,21 +364,22 @@ margin-top: 14vh;
 }
 
 .digital__button {
-  margin-left: 54.5vh;
-  margin-top: 6vh;
-  width: 13vw;
-  height: 5vh;
+  width: 11vw;
+  height: 4vh;
   background-color: #26385B;
   font-size: 12px;
   font-weight: bolder;
   color: white;
   border: none;
   border-radius: 2px;
+  float: right;
+  margin-top: 9vh;
+  margin-right: 6vw;
 }
 
 .digital__picture {
   height: 82vh;
-  width: 43vw;
+  width: 44vw;
   position: absolute;
   /* left: 4vw; */
   top: 308vh;
@@ -420,10 +423,10 @@ margin-top: 14vh;
 .customer__title {
   font-size: 35px;
   font-weight: bolder;
-  width: 40vw;
+  width: 50vw;
   text-align: center;
   padding-top: 9vh;
-  margin-left: 30vw;
+  margin-left: 25vw;
   margin-bottom: 7vh;
   word-spacing: 0.2em;
   line-height: 2em;
@@ -495,6 +498,7 @@ margin-top: 14vh;
   height: 45vh;
   background-image: url('../../assets/img/background_contact.png');
   background-size: 100vw 45vh;
+  margin-top: 5vh;
 }
 
 .contact__title {
@@ -509,6 +513,8 @@ margin-top: 14vh;
 .contact__boutton {
   margin-top: 10.5vh;
   font-size: 18px;
+  font-weight: bold;
+  color: #575757;
   width: 17vw;
   height: 5vh;
   border: solid 2px;
