@@ -53,6 +53,37 @@
   box-shadow: 0px 1px 25px #eaeaea;
 }
 
+.screen__filter {
+  position: absolute;
+  width: 73vw;
+  height: 73vh;
+  left: 13.45vw;
+  top: 107vh;
+  background-color: rgba(21, 42, 69, .8);
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+
+.screen__button {
+  display: none;
+}
+
+.screen__button--hover {
+    height: 6vh;
+    width: 20vw;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #575757;
+    background-color: white;
+    border: solid 2px;
+    border-image-source: linear-gradient(320deg, rgb(251, 18, 190), rgb(251, 18, 190), rgb(96, 157, 229), rgb(51, 249, 240), rgb(176, 220, 122), rgb(253, 216, 106), rgb(253, 216, 106));
+    border-image-slice: 1;
+    position: absolute;
+    left: 40vw;
+    top: 142vh;
+    z-index: 5;
+}
+
 .slider__puces {
   margin-top: 4vh;
   width: 15vw;

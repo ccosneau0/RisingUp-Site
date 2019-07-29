@@ -1,6 +1,10 @@
 html {
-  font-family: 'Circular', sans-sans-serif;
+  font-family: 'Circular', sans-serif;
   font-weight: normal;
+}
+
+button {
+  outline: none;
 }
 
 button:hover {
@@ -495,9 +499,9 @@ button:hover {
 
 .home__contact {
   width: 100vw;
-  height: 45vh;
+  height: 37vh;
   background-image: url('../../assets/img/background_contact.png');
-  background-size: 100vw 45vh;
+  background-size: 100vw 37vh;
   margin-top: 5vh;
 }
 
@@ -511,7 +515,7 @@ button:hover {
 }
 
 .contact__boutton {
-  margin-top: 10.5vh;
+  margin-top: 6vh;
   font-size: 18px;
   font-weight: bold;
   color: #575757;
