@@ -779,14 +779,14 @@
   font-weight: lighter;
   line-height: 3rem;
   color: #8E8B8B;
-  margin-top: 5vh;
+  margin-top: 3vh;
   width: 48vw;
 }
 
 .advice__picture {
   height: 65vh;
   float: right;
-  margin-top: 10vh;
+  margin-top: 12vh;
   margin-bottom: 15vh;
 }
 

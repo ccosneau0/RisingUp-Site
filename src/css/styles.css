@@ -1,8 +1,12 @@
+
 @import './reset.css';
 @import './fonts.css';
 @import './home.css';
 @import './presentiel.css';
 @import './digital.css';
+@import "./clients.css";
+
+
 
 * {
   box-sizing: border-box;
