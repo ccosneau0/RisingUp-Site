@@ -404,7 +404,7 @@
 }
 
 .bubble__info--extia {
-  height: 14vh;
+  height: 10vh;
   width: 30vw;
   background-color: white;
   border: solid 1px #152A45;
@@ -765,5 +765,4 @@
   color: #8E8B8B;
   text-transform: uppercase;
   margin-top: 2vh;
-  margin-left: 8vw;
 }

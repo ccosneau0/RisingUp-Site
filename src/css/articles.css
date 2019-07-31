@@ -1,0 +1,7 @@
+.header__article {
+  width: 100vw;
+  height: 63vh;
+  background-image: url('../../assets/img/background_article.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 63vh;
+}
