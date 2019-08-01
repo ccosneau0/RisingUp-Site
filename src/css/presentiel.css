@@ -71,6 +71,40 @@
   color: #152A45;
 }
 
+.analystic__text--two {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 3rem;
+  width: 40vw;
+  height: 25vh;
+  padding-top: 6vh;
+  background-image: url('../../assets/img/number_two.png');
+  background-size: 8vw 25vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+}
+
+.analystic__text--two {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 3rem;
+  width: 40vw;
+  height: 25vh;
+  padding-top: 6vh;
+  background-image: url('../../assets/img/number_three.png');
+  background-size: 8vw 25vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+}
+
+.analystic__text--none {
+  display: none;
+}
+
 .bubbles {
   display: flex;
   align-items: center;

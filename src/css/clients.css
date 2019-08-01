@@ -44,6 +44,13 @@
   text-align: center;
 }
 
+.underline--clients {
+  position: absolute;
+  top: 6.5vh;
+  left: 44.3vw;
+  width: 2vw;
+}
+
 .scroll__incitement--client {
   position: absolute;
   width: 1.2vw;

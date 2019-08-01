@@ -1,3 +1,10 @@
+//Slider method
+const methodOne = document.getElementById('bubble--one');
+const methodTwo = document.getElementById('bubble--two');
+const methodThree = document.getElementById('bubble--three');
+
+
+
 // Selection des éléments du groupe innovation
 const innovationHover = document.getElementById('innovation__hover');
 const innovation = document.getElementById('innovation');
@@ -35,6 +42,32 @@ const enfanceCatchphrase = document.getElementById('enfance__catchphrase');
 const enfanceNumber = document.getElementById('enfance__number');
 
 let isHover = false;
+
+
+
+//action click sur les bulles de la section method
+
+methodOne.addEventListener('click', function() {
+  console.log('bubble one');
+  methodOne.classList.replace('bubble', 'bubble--active');
+  methodTwo.classList.replace('bubble--active', 'bubble');
+  methodThree.classList.replace('bubble--active', 'bubble');
+})
+
+methodTwo.addEventListener('click', function() {
+  console.log('bubble two');
+  methodOne.classList.replace('bubble--active', 'bubble');
+  methodTwo.classList.replace('bubble', 'bubble--active');
+  methodThree.classList.replace('bubble--active', 'bubble');
+})
+
+methodThree.addEventListener('click', function() {
+  console.log('bubble three');
+  methodOne.classList.replace('bubble--active', 'bubble');
+  methodTwo.classList.replace('bubble--active', 'bubble');
+  methodThree.classList.replace('bubble', 'bubble--active');
+})
+
 
 
 
