@@ -160,6 +160,19 @@
   box-shadow: 0px 1px 20px #eaeaea;
   display: flex;
   color: #152A45;
+  transition: .5s ease-in-out;
+}
+
+.wallet--first {
+  width: 10.917vw;
+  height: 19.270401948842874vh;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 1px 20px #eaeaea;
+  -webkit-box-shadow: 0px 1px 20px #eaeaea;
+  box-shadow: 0px 1px 20px #eaeaea;
+  display: flex;
+  color: #152A45;
+  transition: .5s ease-in-out;
 }
 
 .wallet--active {
@@ -167,6 +180,20 @@
   height: 22vh;
   background-color: #152A45;
   color: white;
+  display: flex;
+  border-radius: 5px;
+  transition: .5s ease-in-out;
+}
+
+.wallet--active--other {
+  width: 11.5vw;
+  height: 22vh;
+  background-color: #152A45;
+  color: white;
+  margin-left: 2vw;
+  display: flex;
+  border-radius: 5px;
+  transition: .5s ease-in-out;
 }
 
 .wallet__text {

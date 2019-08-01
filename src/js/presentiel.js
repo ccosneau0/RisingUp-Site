@@ -3,6 +3,10 @@ const methodOne = document.getElementById('bubble--one');
 const methodTwo = document.getElementById('bubble--two');
 const methodThree = document.getElementById('bubble--three');
 
+const analysticText = document.getElementById('analystic__text');
+const analysticTextTwo = document.getElementById('analystic__text--two');
+const analysticTextThree = document.getElementById('analystic__text--three');
+
 
 
 // Selection des éléments du groupe innovation
@@ -52,6 +56,10 @@ methodOne.addEventListener('click', function() {
   methodOne.classList.replace('bubble', 'bubble--active');
   methodTwo.classList.replace('bubble--active', 'bubble');
   methodThree.classList.replace('bubble--active', 'bubble');
+
+  analysticText.classList.replace('analystic__text--none', 'analystic__text');
+  analysticTextTwo.classList.replace('analystic__text--two', 'analystic__text--none');
+  analysticTextThree.classList.replace('analystic__text--three', 'analystic__text--none');
 })
 
 methodTwo.addEventListener('click', function() {
@@ -59,6 +67,10 @@ methodTwo.addEventListener('click', function() {
   methodOne.classList.replace('bubble--active', 'bubble');
   methodTwo.classList.replace('bubble', 'bubble--active');
   methodThree.classList.replace('bubble--active', 'bubble');
+
+  analysticText.classList.replace('analystic__text', 'analystic__text--none');
+  analysticTextTwo.classList.replace('analystic__text--none', 'analystic__text--two');
+  analysticTextThree.classList.replace('analystic__text--three', 'analystic__text--none');
 })
 
 methodThree.addEventListener('click', function() {
@@ -66,6 +78,10 @@ methodThree.addEventListener('click', function() {
   methodOne.classList.replace('bubble--active', 'bubble');
   methodTwo.classList.replace('bubble--active', 'bubble');
   methodThree.classList.replace('bubble', 'bubble--active');
+
+  analysticText.classList.replace('analystic__text', 'analystic__text--none');
+  analysticTextTwo.classList.replace('analystic__text--two', 'analystic__text--none');
+  analysticTextThree.classList.replace('analystic__text--none', 'analystic__text--three');
 })
 
 

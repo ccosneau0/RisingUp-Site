@@ -69,6 +69,7 @@
   background-position: center;
   text-align: center;
   color: #152A45;
+  transition: .5s ease-in-out;
 }
 
 .analystic__text--two {
@@ -84,21 +85,24 @@
   background-position: center;
   text-align: center;
   color: #152A45;
+  transition: .8s ease-in-out;
 }
 
-.analystic__text--two {
+.analystic__text--three {
   font-size: 24px;
   font-weight: bold;
   line-height: 3rem;
   width: 40vw;
   height: 25vh;
-  padding-top: 6vh;
+  margin-top: 3vh;
+  padding-top: 3vh;
   background-image: url('../../assets/img/number_three.png');
   background-size: 8vw 25vh;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   color: #152A45;
+  transition: .8s ease-in-out;
 }
 
 .analystic__text--none {
@@ -125,6 +129,7 @@
   align-items: center;
   font-size: 18px;
   font-weight: bold;
+  transition: .5s ease-in-out;
 }
 
 .bubble--active {
@@ -136,7 +141,7 @@
   display: flex;
   align-items: center;
   color: white;
-
+  transition: .5s ease-in-out;
 }
 
 .bubble__text {
