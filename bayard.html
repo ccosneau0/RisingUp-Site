@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script defer src="./src/js/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./src/css/style-casclient.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/fonts.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bayard__header">
+        <nav class="vision__nav">
+            <div class="nav__one">
+                <img class="vision__logo"src="./assets/img/Logo_white.png" alt="logo Rising up">
+                <li>Solutions</li>
+                <li>Vision</li>
+                <li>Client</li>
+                <li>Blog</li>
+            </div>
+            <div class="nav__two">
+                <li class="two__connexion">Connexion</li>
+                <div class="language">
+                    <li class="two__language">FR</li>
+                    <img class="two__triangle" src="./assets/img/Triangle.png" alt="triangle">
+                </div>
+            </div>
+        </nav>
+        <div class="michelin__container">
+            <h1 class="michelin__header__title">Groupe Bayard</h1>
+            <p class="michelin__header__text"> Déploiement du programme innovation adaptée aux collaborateurs transdisciplinaire du Lab’ Mass Transit.</p>
+            <div class="michelin__header__table">
+                <p onclick="myScrollTo('challenge');" class="table__text">Le challenge</p>
+                <p onclick="myScrollTo('solutions');" class="table__challenge">Les solutions</p>
+                <p onclick="myScrollTo('resultats');" class="table__text">Les résultats</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="michelin__statistics">
+            <h2 class="statistics__title">Conseils & études : Outils pédagogiques</h2>
+            <img class="bayard__statistics__absolute" src="./assets/img/text-bayard.png" alt="Conseils & études : Outils pédagogiques">
+        </div>
+        <div id="challenge" class="michelin__challenge">
+            <div class="challenge__title">
+                <h2>Le Challenge</h2>
+            </div>
+            <div class="challenge__container">
+                <div class="container__text">
+                    <p>Créé en 1990, Milan Presse est le 8ème éditeur sur le marché de l’édition jeunesse en France, et compte pas moins de</p>
+                    <p>2000 titres actifs avec 2 millions d’exemplaires vendus par an. Milan presse compte environ 300 collaborateurs.</p>
+                </div>
+                <div class="container__text">
+                    <p>La Directrice éditoriale Eveil-Lecture, a souhaité un accompagnement sur la mise en valeur des meilleurs leviers </p>
+                    <p>permettant une interaction épanouie entre l’enfant et les parents.</p>
+                    <p>L’objectif principal était de délivrer un accompagnement scientifique et stratégique auprès des équipes internes sur la</p>
+                    <p>compréhension des compétences des bébés à travers leurs illustrations dans un format inédit et original. </p>
+                </div>
+            </div>
+        </div>
+        <div id="solutions" class="bayard__solutions">
+            <h2 class="solutions__title">Nos solutions</h2>
+            <div class="solutions__container">
+                <div data-aos="zoom-in" class="solutions__cercle">1</div>
+                <div class="solutions__container__text">
+                    <h3 data-aos="fade-up" data-aos-delay="500" class="solutions__subtitle">Audit & Compréhension des enjeux et des spécificités de l’Usine Michelin de Cholet</h3>
+                    <div data-aos="fade-up" data-aos-delay="500" class="solutions__text">
+                        <p>Nos équipes d’experts scientifiques interrogent et analyses l’ensemble des éléments explicites et implicites afin de</p>
+                        <p>pouvoir faire immerger les grandes problématiques à traiter par ordre de priorité.</p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-down" data-aos-delay="750" data-aos-offset="300" class="bayard__solutions__trait--one"></div>
+            <div class="solutions__container">
+                <div data-aos="zoom-in" data-aos-delay="1000" class="solutions__cercle">2</div>
+                <div class="solutions__container__text">
+                    <h3 data-aos="fade-up" data-aos-delay="1500" class="solutions__subtitle">Création d’un programme d’accompagnement à la transition sur mesure </h3>
+                    <div data-aos="fade-up" data-aos-delay="1500" class="solutions__text">
+                        <p>Nos experts scientifiques réalisent ensuite avec rigueur des programmes adaptés aux différents corps de l’Usine</p>
+                        <p>(Ouvrier chaîne de production, Manager, Top Manager). L’ensemble des programmes étant réalisée avec une</p>
+                        <p>approche impactante et méthodique afin de pouvoir relever et analyser les effets.</p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-down" data-aos-delay="1750" data-aos-offset="300" class="bayard__solutions__trait--two"></div>
+            <div class="solutions__container">
+                <div data-aos="zoom-in" data-aos-delay="2000" class="solutions__cercle">3</div>
+                <div class="solutions__container__text">
+                    <h3 data-aos="fade-up" data-aos-delay="2250" class="solutions__subtitle">Guides pratiques & Suivi collectif et individuel</h3>
+                    <div data-aos="fade-up" data-aos-delay="2250" class="solutions__text">
+                        <p>A l’issue de ce programme les collaborateurs ont pu prendre conscience de leurs avancées individuelles et collectives</p>
+                        <p>grâce nos outils de suivi. Ils disposent encore aujourd'hui de guides pratiques et peuvent sur demande accéder à de</p>
+                        <p>nouveaux leviers opérationnels ou mettre à jour leurs connaissances.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="solutions__button--solution">
+                <p>Voir nos autres cas</p>
+            </div>
+        </div>
+        <section id="resultats" class="bayard__article">
+            <div class="article__left">
+                <div class="left__container">
+                    <h2 class="left__title">Les premiers résultats</h2>
+                    <p class="left__subtitle">Magazine petite enfance</p>
+                </div>
+            </div>
+            <div class="bayard__article__describe">
+                <div class="describe__picture">
+                    <img class="picture__enfance"src="./assets/img/picture.png" alt="magazine petite enfance">
+                </div>
+                <div class="bayard__describle__text">
+                    <h3 class="bayard__describe__title">Acquisition du langage : le cerveau à la loupe</h3>
+                    <p class="bayard__describe__text">Comment les bébés apprennent ?  Cette grande question est coeur de notre travail avec les éditions Milan presse afin d’accompagner efficacement les auteurs de différents outils pédagogiques à destination des enfants . Nawal ABBOUB, Directrice scientifique @Rising up et docteure en neurosciences cognitives a d’ailleurs consacré de nombreuses années à la compréhension de ces mécanismes complexes afin d’en déceler ces secrets.</p>
+                    <p class="bayard__describe__text">Dans cette interview Dr Nawal Abboub livre des clefs de compréhénsion en s’appuyant sur ses recherches mais également les dernières avancées en neurosciences.</p>
+                    <div class="solutions__button">
+                        <p>Voir l'interview</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__ask">
+                <p class="ask__text">Une question ? Nos experts sont à votre écoute</p>
+                <div class="footer__buttons">
+                    <div class="footer__button">
+                        <p class="button__text">Demande de devis</p>
+                    </div>
+                    <div class="footer__button">
+                        <p class="button__text">Demande de démo</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="articles__footer">
+					<div class="footer__risingUp">
+					  <img src="./assets/img/logowhite.png" alt="" class="footer__logo">
+					  <p class="footer__risingUp__text">Société innovante, composée d’experts en neurosciences, spécialisée dans la création et le déploiement de solutions pédagogiques et technologiques.</p>
+					</div>
+					<div class="footer__solutions">
+					  <p class="footer__solution--bold">Nos solutions</p>
+					  <p class="footer__solution--light">Formations</p>
+					  <p class="footer__solution--light">Conseils & Etudes</p>
+					  <p class="footer__solution--light">Nos Experts</p>
+					</div>
+					<div class="footer__ressources">
+					  <p class="footer__solution--bold">Nos ressources</p>
+					  <p class="footer__solution--light">Quizz by Risingup</p>
+					  <p class="footer__solution--light">The LAB. by Rising up</p>
+					  <p class="footer__solution--light">Blog</p>
+					</div>
+					<div class="footer__newsletter">
+					  <p class="footer__solution--bold">Newsletter</p>
+					  <label for="footer__input"></label>
+					  <input type="search" name="footer__input" placeholder="*Votre mail" class="footer__input" id="footer__input">
+					  <button class="footer__input__button">OK</button>
+					  <div class="footer__socials">
+						<img src="./assets/img/footer-twitter.png" alt="" class="footer__social">
+						<img src="./assets/img/footer-facebook.png" alt="" class="footer__social--facebook">
+						<img src="./assets/img/footer-linkedin.png" alt="" class="footer__social">
+					  </div>
+					</div>
+					<div class="footer__datas">
+					  <img src="./assets/img/footer-datadock.png" alt="" class="footer__data__picture">
+					  <p class="footer__data__text">© Rising Up Paris - All right reserved - Terms & Conditions</p>
+					</div>
+			</footer>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS . init ();
+    </script>
+</body>
+</html>

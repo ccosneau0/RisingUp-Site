@@ -115,13 +115,6 @@ button:hover {
   margin-left: 22.5vw;
 }
 
-.header__transition {
-  width: 100vw;
-  height: 20vh;
-  position: absolute;
-  top: 67.7vh;
-}
-
 .hook {
   height: 60vh;
   width: 100vw;
@@ -156,6 +149,16 @@ button:hover {
   align-items: center;
 }
 
+.hook__exp--none {
+  text-align: center;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5vw;
+}
+
 .exp__title {
   font-size: 28px;
   font-weight: bold;
@@ -176,6 +179,7 @@ button:hover {
   height: 6vh;
   width: 20vw;
   border: solid 2px;
+  background-color: white;
   border-image-source: linear-gradient(320deg, rgb(251, 18, 190), rgb(251, 18, 190), rgb(96, 157, 229), rgb(51, 249, 240), rgb(176, 220, 122), rgb(253, 216, 106), rgb(253, 216, 106));
   border-image-slice: 1;
   margin-top: 4vh;
@@ -374,6 +378,17 @@ button:hover {
   /* left: 4vw; */
   top: 308vh;
   z-index: 1;
+}
+
+.slider__puces--home {
+  margin-top: 10vh;
+  margin-left: 1.5vw;
+  width: 15vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
 }
 
 .home__start {

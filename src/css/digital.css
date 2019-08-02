@@ -93,16 +93,6 @@
   margin-left: 12.5vw;
 }
 
-.slider__puces--home {
-  margin-top: 10vh;
-  margin-left: 1.5vw;
-  width: 15vw;
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  float: left;
-}
-
 .slider__puces--litle {
   margin-top: 4vh;
   width: 15vw;
@@ -215,24 +205,121 @@
   line-height: 2rem;
   font-size: 18px;
   font-weight: bolder;
+  background-image: url('../../assets/img/number_one.png');
+  background-size: 5vw 16vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+  padding-top: 5vh;
+  margin-left: 4vw;
+}
+
+.apprenticeship__text--two {
+  width: 30vw;
+  height: 16vh;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: bolder;
+  background-image: url('../../assets/img/number_two.png');
+  background-size: 6vw 16vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+  padding-top: 5vh;
+  margin-left: 4vw;
+}
+
+.apprenticeship__text--three {
+  width: 30vw;
+  height: 16vh;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: bolder;
+  background-image: url('../../assets/img/number_three.png');
+  background-size: 6vw 16vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+  padding-top: 5vh;
+  margin-left: 4vw;
+}
+
+.apprenticeship__text--four {
+  width: 30vw;
+  height: 16vh;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: bolder;
   background-image: url('../../assets/img/number_four.png');
-  background-size: 8vw 16vh;
+  background-size: 6vw 16vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+  padding-top: 5vh;
+  margin-left: 4vw;
+}
+
+.apprenticeship__text--none {
+  display: none;
+}
+
+.apprenticeship__text--left--five {
+  width: 34vw;
+  height: 16vh;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: bolder;
+  background-image: url('../../assets/img/number_one.png');
+  background-size: 5vw 16vh;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   color: #152A45;
   padding-top: 4vh;
-  margin-left: 4vw;
 }
 
-.apprenticeship__text--left {
+.apprenticeship__text--left--six {
+  width: 34vw;
+  height: 16vh;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: bolder;
+  background-image: url('../../assets/img/number_two.png');
+  background-size: 6vw 16vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+  padding-top: 5vh;
+}
+
+.apprenticeship__text--left--seven {
+  width: 34vw;
+  height: 16vh;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: bolder;
+  background-image: url('../../assets/img/number_three.png');
+  background-size: 6vw 16vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #152A45;
+  padding-top: 4vh;
+}
+
+.apprenticeship__text--left--height {
   width: 34vw;
   height: 16vh;
   line-height: 2rem;
   font-size: 18px;
   font-weight: bolder;
   background-image: url('../../assets/img/number_four.png');
-  background-size: 8vw 16vh;
+  background-size: 6vw 16vh;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
