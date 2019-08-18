@@ -172,7 +172,6 @@
 .articles__footer {
   width: 100vw;
   height: 28vh;
-  margin-top: 13vh;
   background-image: url('../../assets/img/background_footer.png');
   background-size: 100vw 28vh;
   background-repeat: no-repeat;
@@ -276,4 +275,15 @@
   font-weight: lighter;
   margin-top: 5vh;
   margin-left: -6vw;
+}
+
+
+.footer__solution--bold--new{
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+}
+
+.footer__follow{
+    display:none;
 }

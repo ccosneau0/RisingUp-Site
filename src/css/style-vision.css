@@ -959,7 +959,7 @@ html{
         font-family: "Circular", sans-serif;
         font-weight: bold;
         font-size: 12px;
-        line-height: -0.14px;
+        line-height: 0.14px;
         color: #FFFFFF;
     }
     .newsletter__trait--three {

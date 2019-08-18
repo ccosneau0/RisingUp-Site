@@ -34,8 +34,8 @@
   .method__title {
     font-size: 24px;
     font-weight: bolder;
-    margin-top: 28vh;
-    margin-left: 70vw;
+    margin-top: 35vh;
+    margin-left: 38vw;
     color: #101D35;
   }
 
@@ -43,21 +43,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width: 85vw;
+    width: 100vw;
     height: 35vh;
-    margin-left: 15vw;
+    margin-top: 5vh;
+    margin-left: 0;
   }
 
   .analystic__text {
     font-size: 14px;
     font-weight: bold;
     line-height: 3rem;
-    width: 40vw;
-    height: 25vh;
-    padding-top: 6vh;
+    width: 85vw;
+    height: 30vh;
+    margin-top: 3vh;
+    padding-top: 4vh;
     background-image: url('../../assets/img/number_one.png');
-    background-size: 8vw 25vh;
+    background-size: 17vw 17vh;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -70,11 +71,12 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 3rem;
-    width: 40vw;
-    height: 25vh;
-    padding-top: 6vh;
+    width: 85vw;
+    height: 30vh;
+    margin-top: 3vh;
+    padding-top: 3vh;
     background-image: url('../../assets/img/number_two.png');
-    background-size: 8vw 25vh;
+    background-size: 17vw 17vh;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -87,12 +89,12 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 3rem;
-    width: 40vw;
-    height: 25vh;
+    width: 85vw;
+    height: 30vh;
     margin-top: 3vh;
-    padding-top: 3vh;
+    padding-top: 0vh;
     background-image: url('../../assets/img/number_three.png');
-    background-size: 8vw 25vh;
+    background-size: 17vw 17vh;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -108,7 +110,8 @@
   .bubbles {
     display: flex;
     align-items: center;
-    width: 90vw;
+    justify-content: space-around;
+    width: 100vw;
     height: 25vh;
     color: #152A45;
     order: 1;
@@ -121,7 +124,7 @@
     -moz-box-shadow: 0px 1px 20px #eaeaea;
     -webkit-box-shadow: 0px 1px 20px #eaeaea;
     box-shadow: 0px 1px 20px #eaeaea;
-    margin-left: 3vw;
+    margin-left: 0vw;
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -134,7 +137,7 @@
     height: 110px;
     border-radius: 50%;
     background-color: #152A45;
-    margin-left: 3vw;
+    margin-left: 0vw;
     display: flex;
     align-items: center;
     color: white;
@@ -150,10 +153,13 @@
   }
 
   .presentiel__coaching {
-    margin-top: 35vh;
-    margin-left: 7vw;
+    margin-top: 0vh;
+    padding-top: 40vh;
+    margin-left: 0vw;
     height: 42vh;
-    float: left;
+    width: 100vw;
+    float: none;
+    text-align: center;
   }
 
   .coaching__title {
@@ -167,7 +173,8 @@
     font-weight: lighter;
     line-height: 2rem;
     margin-top: 5vh;
-    width: 55vw;
+    margin-left: 5vw;
+    width: 90vw;
     color: #8E8B8B;
   }
 
@@ -184,14 +191,15 @@
     text-align: center;
     width: 100vw;
     color: #152A45;
+    margin-top: -5vh;;
   }
 
   .numbers {
     width: 100vw;
-    height: 24.36vh;
-    margin-top: 10vh;
+    height: 15vh;
+    margin-top: 5vh;
     background-image: url('../../assets/img/background_numbers.png');
-    background-size: 100vw 24.36vh;
+    background-size: 100vw 15vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
@@ -221,9 +229,17 @@
     margin-top: 1vh;
   }
 
+  .puce--left {
+    display: none;
+  }
+
+  .puce--right {
+    display: none;
+  }
+
   .innovation__hover {
     will-change: transform;
-    height: 65vh;
+    height: 35vh;
   }
 
   .innovation__picture {
@@ -233,7 +249,7 @@
   }
 
   .innovation {
-    margin-top: 19vh;
+    margin-top: 10vh;
     float: right;
     text-align: left;
     width: 67vw;
@@ -260,7 +276,7 @@
     font-size: 12px;
     font-weight: bold;
     color: #0047FC;
-    margin-top: 4vh;
+    margin-top: 2vh;
     transition: .7s ease-in-out;
   }
 
@@ -269,10 +285,11 @@
     font-weight: lighter;
     letter-spacing: .2rem;
     transition: .7s ease-in-out;
-    margin-top: 8vh;
+    margin-top: 2vh;
     animation-duration: .8s;
     animation-name: textAppears;
     color: #141414;
+    line-height: 1.5rem;
   }
 
   .innovation__catchphrase--hover {
@@ -328,22 +345,23 @@
   }
 
   .innovation__button {
-    height: 6vh;
-    width: 12vw;
-    font-size: 14px;
+    height: 4.5vh;
+    width: 35vw;
+    font-size: 12px;
     font-weight: bold;
     border: solid 2px #0047FC;
     color: #575757;
-    margin-top: 6vh;
+    margin-top: 3vh;
     transition: .9s ease-in-out;
     animation-duration: .9s;
     animation-name: textAppears;
+    background-color: white;
   }
 
   .management__hover {
     will-change: transform;
     width: 100vw;
-    height: 65vh;
+    height: 35vh;
     margin-top: 5vh;
   }
 
@@ -353,11 +371,11 @@
   }
 
   .management {
-    margin-top: 5vh;
-    padding-top: 4vh;
+    margin-top: 0vh;
+    padding-top: 0vh;
     text-align: right;
     width: 63vw;
-    height: 60vh;
+    height: 20vh;
     transition: .7s ease-in-out;
   }
 
@@ -380,7 +398,7 @@
     font-size: 12px;
     font-weight: bold;
     color: #519898;
-    margin-top: 4vh;
+    margin-top: 2vh;
     transition: .7s ease-in-out;
   }
 
@@ -389,10 +407,11 @@
     font-weight: lighter;
     letter-spacing: .2rem;
     transition: .7s ease-in-out;
-    margin-top: 8vh;
+    margin-top: 2vh;
     animation-duration: .8s;
     animation-name: textAppears;
     color: #141414;
+    line-height: 1.5rem;
   }
 
   .management__catchphrase--hover {
@@ -440,30 +459,32 @@
   }
 
   .management__button {
-    height: 6vh;
-    width: 12vw;
-    font-size: 14px;
+    height: 4.5vh;
+    width: 35vw;
+    font-size: 12px;
     font-weight: bold;
     border: solid 2px #519898;
     color: #575757;
-    margin-top: 10vh;
+    margin-top: 3vh;
     transition: .7s ease-in-out;
     animation-duration: .8s;
     animation-name: textAppears;
+    background-color: white;
   }
 
   .skills__hover {
     will-change: transform;
-    height: 60vh;
-    margin-top: 5vh;
+    height: 35vh;
+    margin-top: -2vh;
   }
 
   .skills__picture {
     height: 15vh;
+    margin-top: 2vh;
   }
 
   .skills {
-    margin-top: 5vh;
+    margin-top: 0vh;
     float: right;
     text-align: left;
     width: 63vw;
@@ -484,7 +505,7 @@
   }
 
   .skills__title--pth {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: lighter;
     color: #152A45;
 
@@ -494,7 +515,7 @@
     color: #861818;
     font-size: 12px;
     font-weight: bold;
-    margin-top: 4vh;
+    margin-top: 2vh;
   }
 
   .skills__catchphrase {
@@ -502,10 +523,11 @@
     font-weight: lighter;
     letter-spacing: .2rem;
     transition: .7s ease-in-out;
-    margin-top: 8vh;
+    margin-top: 2vh;
     animation-duration: .8s;
     animation-name: textAppears;
     color: #141414;
+    line-height: 1.5rem;
   }
 
   .skills__catchphrase--hover {
@@ -552,21 +574,22 @@
   }
 
   .skills__button {
-    height: 6vh;
-    width: 12vw;
-    font-size: 18px;
-    font-weight: lighter;
+    height: 4.5vh;
+    width: 35vw;
+    font-size: 12px;
+    font-weight: bold;
     border: solid 2px #861818;
     color: #575757;
     margin-right: 7vw;
-    margin-top: 10vh;
+    margin-top: 3vh;
     transition: .7s ease-in-out;
+    background-color: white;
   }
 
   .pedagogie__hover {
     will-change: transform;
-    height: 65vh;
-    margin-top: 5vh;
+    height: 35vh;
+    margin-top: -3vh;
   }
 
   .pedagogie__picture {
@@ -575,10 +598,10 @@
   }
 
   .pedagogie {
-    margin-top: 6vh;
+    margin-top: 0vh;
     text-align: right;
     width: 64vw;
-    height: 60vh;
+    height: 20vh;
     float: left;
     transition: .7s ease-in-out;
   }
@@ -602,7 +625,7 @@
     font-size: 12px;
     font-weight: bold;
     color: #DEC666;
-    margin-top: 4vh;
+    margin-top: 2vh;
   }
 
   .pedagogie__catchphrase {
@@ -610,10 +633,12 @@
     font-weight: lighter;
     letter-spacing: .2rem;
     transition: .7s ease-in-out;
-    margin-top: 8vh;
+    margin-top: 2vh;
     animation-duration: .8s;
     animation-name: textAppears;
     color: #141414;
+    width: 55vw;
+    line-height: 1.5rem;
   }
 
   .pedagogie__catchphrase--hover {
@@ -654,20 +679,21 @@
   }
 
   .pedagogie__button {
-    height: 6vh;
-    width: 12vw;
-    font-size: 18px;
-    font-weight: lighter;
+    height: 4.5vh;
+    width: 35vw;
+    font-size: 12px;
+    font-weight: bold;
     border: solid 2px #DEC666;
     color: #575757;
-    margin-top: 10vh;
+    margin-top: 3vh;
+    background-color: white;
     transition: .7s ease-in-out;
   }
 
   .enfance__hover {
     will-change: transform;
-    height: 60vh;
-    margin-top: 5vh;
+    height: 35vh;
+    margin-top: 3vh;
   }
 
   .enfance__picture {
@@ -679,7 +705,7 @@
     float: right;
     text-align: left;
     width: 63vw;
-    margin-top: 5vh;
+    margin-top: 0vh;
     transition: .7s ease-in-out;
   }
 
@@ -701,7 +727,7 @@
     color: #D630FF;
     font-size: 12px;
     font-weight: bold;
-    margin-top: 4vh;
+    margin-top: 2vh;
     transition: .7s ease-in-out;
   }
 
@@ -710,8 +736,9 @@
     font-weight: lighter;
     letter-spacing: .2rem;
     transition: .7s ease-in-out;
-    margin-top: 8vh;
+    margin-top: 2vh;
     animation-duration: .8s;
+    line-height: 1.5rem;
     animation-name: textAppears;
     color: #141414;
   }
@@ -760,13 +787,14 @@
   }
 
   .enfance__button {
-    height: 6vh;
-    width: 12vw;
-    font-size: 18px;
-    font-weight: lighter;
+    height: 4.5vh;
+    width: 35vw;
+    font-size: 12px;
+    font-weight: bold;
     border: solid 2px #D630FF;
     color: #575757;
-    margin-top: 10vh;
+    background-color: white;
+    margin-top: 3vh;
     transition: .7s ease-in-out;
   }
 
@@ -795,9 +823,10 @@
   }
 
   .advice {
-    margin-top: 25vh;
-    margin-left: 7vw;
-    float: left;
+    margin-top: 14vh;
+    margin-left: 0vw;
+    float: none;
+    text-align: center;
   }
 
   .advice__title {
@@ -812,12 +841,13 @@
   }
 
   .advice__text {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: lighter;
     line-height: 3rem;
     color: #8E8B8B;
     margin-top: 3vh;
-    width: 48vw;
+    margin-left: 5vw;
+    width: 90vw;
   }
 
   .advice__picture {
@@ -825,6 +855,7 @@
     float: right;
     margin-top: 12vh;
     margin-bottom: 15vh;
+    display: none;
   }
 
   .puce--left {

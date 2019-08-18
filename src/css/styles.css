@@ -5,10 +5,11 @@
 @import './presentiel.css';
 @import "./presentielMobile.css";
 @import './digital.css';
+@import "./digitalMobile.css";
 @import "./clients.css";
+@import "./clientsMobile.css";
 @import "./articles.css";
-@import "./style-vision.css";
-@import "./style-casclient.css";
+@import "./articlesMobile.css";
 
 
 

@@ -5,6 +5,15 @@
   background-size: 100vw 90vh;
 }
 
+.header__title--digital {
+  font-size: 44px;
+  font-weight: bolder;
+  letter-spacing: .4rem;
+  margin-left: 7vw;
+  margin-top: 10vh;
+  color: white;
+}
+
 .header__text--digital {
   margin-left: 7vw;
   font-size: 18px;
